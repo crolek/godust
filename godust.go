@@ -30,7 +30,7 @@ func RenderDustjs(templatePath string, templateName string, jsonDataString strin
 	code += `var _jsRenderedResults;
 			dust.render("` + templateName + `", ` + jsonDataString + `, function(err, out){
 				//console.log(err);
-				console.log(out);
+				//console.log(out);
 				_jsRenderedResults = out;
 			});
 			`
